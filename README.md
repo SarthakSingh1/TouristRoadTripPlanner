@@ -46,32 +46,3 @@ You will then be asked to enter either "1" or anything else. This input will dec
 After this input, us_map1.png will be populated and the program is done
 
 ![us_map1](https://media.github-dev.cs.illinois.edu/user/9991/files/731eee0a-3be9-4f78-ba52-8f2a47a2eb18)
-
-
-## How to test the program 
-
-# To test the program you need to run 
-1. make test
-2. ./test
-
-###### Our tests are broken down into a few sub sections
-
-1. Parsing
-We make sure that when we parse our data that our data structure(a vector) that that vector is not empty and contained the same number of items as the number of lines in our csv file. We also make sure that the same is done for our other csv(neihboring states)
-
-3. Graph creation
-We create an adjacency matrix and make sure that there are no edges between a node and itself
-
-5. Djstrikas algorithm
-We make sure that the total distance is less than that of bfs and the fact the traversal starts and ends in two different states
-Ajay fill in
-
-6. BFS
-Pranav fill in
-
-7. Kruskals algorithm
-We make sure that the number of edges is equal to the number of nodes within our map
-
-
-8. Output logic
-We make sure that the hash of our input map is different from the output map as the output should have a traversal. 
